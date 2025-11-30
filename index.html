@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title> Urban Hive | Find Your Dream Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Top bar -->
+  <header class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span>Call us: +91-98765-43210</span>
+        <span>Email: info@urbanhive.com</span>
+      </div>
+      <div class="top-bar-right">
+        <span>Mon–Sat: 9:00 AM – 7:00 PM</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main header / nav -->
+  <header class="main-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-icon">U</span>
+        <span class="logo-text">Urban Hive</span>
+      </div>
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#contact" class="btn-nav">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Selling spaces, shaping communities.</h1>
+          <p>
+            Premium apartments, family homes, and commercial spaces in prime locations.
+            Trusted by hundreds of families and investors.
+          </p>
+          <div class="hero-actions">
+            <a href="#properties" class="btn primary">Explore Properties</a>
+            <a href="#contact" class="btn outline">Talk to an Agent</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <h3>150+</h3>
+              <p>Properties Listed</p>
+            </div>
+            <div>
+              <h3>95%</h3>
+              <p>Client Satisfaction</p>
+            </div>
+            <div>
+              <h3>10+</h3>
+              <p>Years Experience</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="images/image1.png" alt="Property Image" class="hero-card-img">
+
+          <h2>Featured Property</h2>
+          <p class="location">Gurugram, Haryana</p>
+          <p class="price">₹ 18.25 Cr</p>
+          <ul class="features">
+            <li>Luxury Villa</li>
+            <li>2 Covered Parking</li>
+            <li>Clubhouse & Swimming Pool</li>
+            <li>24x7 Security</li>
+          </ul>
+          <a href="#contact" class="btn full-width">Schedule a Visit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Property listings -->
+    <section id="properties" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Listings</h2>
+          <p>Select from handpicked properties in top locations.</p>
+        </div>
+
+        <div class="property-grid"></div>
+  <div class="property-grid">
+
+    <!-- Filter card -->
+  <aside class="property-card filter-card">
+    <h3 class="filter-title">Filters</h3>
+
+    <div class="filter-group">
+      <label class="filter-label">Property Type</label>
+      <div class="filter-badges">
+        <button class="filter-pill active">Any</button>
+        <button class="filter-pill">Apartment</button>
+        <button class="filter-pill">House</button>
+        <button class="filter-pill">Villa</button>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <label class="filter-label">Price (₹)</label>
+      <div class="filter-row">
+        <input type="number" placeholder="Min">
+        <span class="filter-to">–</span>
+        <input type="number" placeholder="Max">
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <label class="filter-label">Bedrooms</label>
+      <div class="filter-badges">
+        <button class="filter-pill">1+</button>
+        <button class="filter-pill">2+</button>
+        <button class="filter-pill">3+</button>
+        <button class="filter-pill">4+</button>
+      </div>
+    </div>
+
+    <div class="filter-actions">
+      <button class="btn outline small">Reset</button>
+      <button class="btn primary small">Apply</button>
+    </div>
+  </aside>
+
+  
+    
+
+  
+
+          <!-- Card 1 -->
+          <article class="property-card">
+            <div class="property-image property-image-1">
+              <img src="images/image6.png" alt="Modern Apartment" class="property-thumb">
+            </div>
+            <div class="property-content">
+              <h3>Modern 2 BHK Apartment</h3>
+              <p class="property-location">Sector 62, Gurugram</p>
+              <p class="property-price">₹ 78 Lac</p>
+              <ul class="property-details">
+                <li>2 Bedrooms</li>
+                <li>2 Bathrooms</li>
+                <li>1 Balcony</li>
+              </ul>
+              <div class="property-tags">
+                <span>For Sale</span>
+                <span>Gated Society</span>
+              </div>
+              <a href="#contact" class="btn small">Enquire Now</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="property-card">
+            <div class="property-image property-image-2">
+              <img src="images/image5.png" alt="Independent Floor" class="property-thumb">
+            </div>
+            <div class="property-content">
+              <h3>3 BHK Independent Floor</h3>
+              <p class="property-location">Gurugram, Haryana</p>
+              <p class="property-price">₹ 52 Lac</p>
+              <ul class="property-details">
+                <li>3 Bedrooms</li>
+                <li>3 Bathrooms</li>
+                <li>Parking Space</li>
+              </ul>
+              <div class="property-tags">
+                <span>For Sale</span>
+                <span>Family Home</span>
+              </div>
+              <a href="#contact" class="btn small">Enquire Now</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="property-card">
+            <div class="property-image property-image-3">
+              <img src="images/image4.png" alt="Independent Floor" class="property-thumb">
+            </div>
+            <div class="property-content">
+              <h3>Office Space for Rent</h3>
+              <p class="property-location">Cyber City, Gurugram</p>
+              <p class="property-price">₹ 95,000 / month</p>
+              <ul class="property-details">
+                <li>1200 sq.ft</li>
+                <li>Fully Furnished</li>
+                <li>Prime IT Hub</li>
+              </ul>
+              <div class="property-tags">
+                <span>For Rent</span>
+                <span>Commercial</span>
+              </div>
+              <a href="#contact" class="btn small">Enquire Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div>
+          <h2>About Urban Hive</h2>
+          <p>
+            Urban Hive is a full-service real estate agency focused on residential and commercial
+            properties in Delhi-NCR and nearby regions. We simplify the buying, selling, and renting
+            process with transparent communication and expert guidance.
+          </p>
+          <p>
+            From first-time home buyers to seasoned investors, we help clients make confident
+            decisions backed by data, site visits, and market research.
+          </p>
+          <ul class="check-list">
+            <li>RERA compliant projects</li>
+            <li>Verified property documents</li>
+            <li>End-to-end support till registration</li>
+          </ul>
+        </div>
+        <div class="about-box">
+          <h3>Why Choose Us?</h3>
+          <ul>
+            <li>Dedicated relationship managers</li>
+            <li>Customized property recommendations</li>
+            <li>Strong network with top builders</li>
+            <li>Assistance with home loans & legal support</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process section -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>How It Works</h2>
+          <p>Simple 4-step process to get your dream property.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-step">
+            <span class="step-number">01</span>
+            <h3>Share Your Requirements</h3>
+            <p>Tell us your budget, location preference, and property type.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-number">02</span>
+            <h3>Get Shortlisted Options</h3>
+            <p>We send you curated properties matching your profile.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-number">03</span>
+            <h3>Visit & Finalize</h3>
+            <p>Visit properties, compare, negotiate and choose the best.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-number">04</span>
+            <h3>Documentation & Handover</h3>
+            <p>We support in paperwork, registration, and final handover.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="contact" class="section section-alt">
+  <div class="container contact-grid">
+    <!-- LEFT SIDE -->
+    <div>
+      <h2>Contact Our Team</h2>
+      <p>
+        Looking to buy, sell, or rent a property? Share your details and our team will get in
+        touch within 24 hours.
+      </p>
+      <div class="contact-info">
+        <p><strong>Phone:</strong> +91-98765-43210</p>
+        <p><strong>Email:</strong> info@urbanhive.com</p>
+        <p><strong>Office:</strong> Sector 21, Gurugram, Haryana</p>
+      </div>
+
+      <!--Featured Agent BOX INSIDE LEFT COLUMN -->
+      <div class="agent-card-inline">
+        <h3>Featured Agent</h3>
+        <p class="tagline">Your dedicated real estate expert for premium properties.</p>
+
+        <div class="agent-mini">
+          <img src="images/image9.png" alt="Agent" class="agent-mini-photo" />
+
+
+          <div class="agent-text">
+            <strong>Amelia Smith</strong>
+            <span class="role">Senior Property Consultant</span>
+            <span class="phone">📞 +91-98765-11110</span>
+            <span class="email">
+             <span class="email-icon">✉️</span>
+             <span>amelia.smith@urbanhive.com</span>
+            </span>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn primary small agent-mini-btn">Contact Amelia</a>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input id="name" type="text" placeholder="Enter your name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input id="email" type="email" placeholder="Enter your email" />
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" placeholder="Enter your phone number" />
+      </div>
+      <div class="form-group">
+        <label for="type">Looking For</label>
+        <select id="type">
+          <option>Buy Residential Property</option>
+          <option>Rent Residential Property</option>
+          <option>Buy Commercial Property</option>
+          <option>Rent Commercial Property</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="4" placeholder="Share your requirement"></textarea>
+      </div>
+      <button type="submit" class="btn primary full-width">Submit Enquiry</button>
+    </form>
+  </div>
+</section>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Urban Hive. All rights reserved.</p>
+      <p>Designed for Capstone Project – HTML & CSS.</p>
+    </div>
+  </footer>
+</body>
+</html>
