@@ -599,7 +599,7 @@ textarea {
   }
 }
 
-/* Inline Agent Card (Small, Clean Version) */
+/* Inline Agent Card  */
 .agent-card-inline {
   background: #ffffff;
   border-radius: 1rem;
@@ -628,13 +628,7 @@ textarea {
   margin-bottom: 1rem;
 }
 
-/*.agent-mini-photo {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--primary);
-}*/
+
 
 .agent-mini-photo {
   width: 70px;
@@ -677,10 +671,10 @@ textarea {
 }
 
 .hero-text p {
-  color: #a4b8dc;   /* white or any color you want */
+  color: #a4b8dc;  
 }
 
-/* Filter card inside property grid */
+
 .filter-card {
   padding: 1.3rem 1.2rem;
 }
