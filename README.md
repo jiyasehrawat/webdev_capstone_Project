@@ -7,6 +7,7 @@ https://urbanhive-capstone.netlify.app/
 
 ### 📁 Project Structure
 / images  
+README.md
 index.html  
 style.css  
 
